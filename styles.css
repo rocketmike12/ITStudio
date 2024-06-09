@@ -396,13 +396,13 @@ html {
 .video-video {
     margin: 0 auto;
     background-image: url(./img/img_4.png);
+    background-size: 100%;
     max-width: 970px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 430px;
-    margin-top: 70px; 
-    border-radius: 10px;
+    margin-top: 70px;
 }
 
 .video-btn {
