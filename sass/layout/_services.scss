@@ -1,0 +1,67 @@
+.services {
+    padding-top: 110px;
+    padding-bottom: 105px;
+    &-title {
+        color: $titlegrey;
+        @include typography(inherit, 36px, 700, 52.66px, center);
+        margin-bottom: 32px;
+    }
+    
+    &-subtitle {
+        @include typography(inherit, 16px, 400, 25.36px, center);
+        color: $grey;
+        margin-bottom: 70px;
+    }
+    
+    &-list {
+        @include flex(space-between, _, _, _, _);
+        margin-bottom: 55px;
+        &-item {
+            @include flex(_, _, _, _, _)
+        }
+        
+        &-text-wrapper {
+            margin-top: 46px;
+            margin-left: 17px;
+        }
+        
+        &-title {
+            @include typography(inherit, 18px, 600, 21.94px, left);
+        }
+        
+        &-text {
+            @include typography(inherit, 14px, 400, 22.19px, left);
+            color: $grey;
+        }
+
+        &-icon-wrapper-first {
+            border: 1px solid $linegrey;
+            @include flex(center, center, _, _, _);
+            flex-shrink: 0;
+            border-radius: 100%;
+            width: 110px;
+            height: 110px;
+        }
+        
+        &-icon-wrapper-second {
+            border: 1px solid $accent;
+            @include flex(center, center, _, _, _);
+            border-radius: 100%;
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+    &-btn {
+        @include flex(center, center, _, _, _);
+        background-color: $accent;
+        color: $white;
+        @include typography(inherit, 16px, 500, 19.5px, center);
+        width: 200px;
+        height: 45px;
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 55px;
+        margin-bottom: 105px;
+    }
+}
