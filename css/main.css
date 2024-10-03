@@ -1,0 +1,70 @@
+body {
+  font-family: Montserrat;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  border: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1113px;
+}
+
+.header {
+  position: absolute;
+  border-bottom: 1px solid #A1A1A1;
+  width: 100%;
+}
+.header-container {
+  display: flex;
+  justify-content: _;
+  align-items: center;
+  gap: _;
+  flex-wrap: _;
+  flex-direction: _;
+}
+.header .nav {
+  margin-left: 407px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.header .nav-list {
+  display: flex;
+  justify-content: _;
+  align-items: _;
+  gap: 45px;
+  flex-wrap: _;
+  flex-direction: _;
+}
+.header .nav-list-link {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: left;
+}/*# sourceMappingURL=main.css.map */

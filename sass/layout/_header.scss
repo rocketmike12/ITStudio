@@ -1,0 +1,21 @@
+.header {
+    position: absolute;
+    border-bottom: 1px solid #A1A1A1;
+    width: 100%;
+    &-container {
+        @include flex(_, center, _, _, _);
+    }
+
+    .nav {
+        margin-left: 407px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        &-list {
+            @include flex(_, _, 45px, _, _);
+            &-link {
+                color: $white;
+                @include typography(inherit, 16px, 500, 19.5px, left)
+            }
+        }
+    }
+}
