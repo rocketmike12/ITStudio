@@ -66,5 +66,64 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 19.5px;
-  letter-spacing: left;
+  text-align: left;
+  display: flex;
+  justify-content: _;
+  align-items: center;
+  gap: _;
+  flex-wrap: _;
+  flex-direction: column;
+}
+.header .nav-list-link.current::after {
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  display: block;
+  height: 4px;
+  width: 107px;
+  top: 100px;
+}
+
+.hero {
+  background-image: url("/img/hero-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 220px;
+  padding-bottom: 335px;
+}
+.hero-subtitle {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+}
+.hero-title {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64.36px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.hero-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: _;
+  flex-wrap: _;
+  flex-direction: _;
+  background-color: #4985FF;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

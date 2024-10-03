@@ -1,0 +1,28 @@
+.hero {
+    background-image: url("/img/hero-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 220px;
+    padding-bottom: 335px;
+    &-subtitle {
+        color: $white;
+        @include typography(inherit, 16px, 500, 19.5px, center)
+    }
+    
+    &-title {
+        color: $white;
+        @include typography(inherit, 48px, 800, 64.36px, center);
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    &-link {
+        @include flex(center, center, _, _, _);
+        background-color: #4985FF;
+        color: #ffffff;
+        @include typography(inherit, 16px, 500, 19.5px, center);
+        width: 200px;
+        height: 45px;
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+}

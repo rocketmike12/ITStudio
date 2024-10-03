@@ -1,9 +1,9 @@
-@mixin typography($font-family, $font-size, $font-weight, $line-height, $letter-spacing) {
+@mixin typography($font-family, $font-size, $font-weight, $line-height, $text-align) {
     font-family: $font-family;
     font-size: $font-size;
     font-weight: $font-weight;
     line-height: $line-height;
-    letter-spacing: $letter-spacing;
+    text-align: $text-align;
 }
 
 @mixin flex($justify-content, $align-items, $gap, $flex-wrap, $flex-direction) {

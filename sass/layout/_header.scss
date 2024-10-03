@@ -14,7 +14,19 @@
             @include flex(_, _, 45px, _, _);
             &-link {
                 color: $white;
-                @include typography(inherit, 16px, 500, 19.5px, left)
+                @include typography(inherit, 16px, 500, 19.5px, left);
+                @include flex(_, center, _, _, column);
+                &.current {
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        background-color: $white;
+                        display: block;
+                        height: 4px;
+                        width: 107px;
+                        top: 100px;
+                    }
+                }
             }
         }
     }
