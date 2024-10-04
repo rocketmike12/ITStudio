@@ -34,7 +34,7 @@
     }
 
     &-list {
-        border-top: 1px solid #E0E0E0;
+        border-top: 1px solid $linegrey;
         @include flex(space-evenly, _, _, _, _);
         padding-top: 70px;       
         &-title {

@@ -26,7 +26,7 @@
     &-list {
         @include flex(space-between, _, _, _, _);
         padding-bottom: 85px;
-        border-bottom: 1px solid #E0E0E0;
+        border-bottom: 1px solid $linegrey;
         &-title {
             @include typography(inherit, 18px, 600, 21.94px, left);
             margin-top: 30px;
