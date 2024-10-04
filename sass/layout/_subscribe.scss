@@ -1,0 +1,51 @@
+.subscribe {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    &-title {
+        @include typography(inherit, 18px, 600, 21.94px, center);
+        margin-bottom: 20px;
+    }
+    
+    &-subtitle {
+        @include typography(inherit, 16px, 400, 25.36px, center);
+        color: $grey;
+        margin-bottom: 30px;
+    }
+    
+    &-form {
+        margin: 0 auto;
+        @include flex(space-around, center, 149px, _, _);
+        border: 1px solid #F2F2F2;
+        max-width: 489px;
+        box-shadow: 0px 0px 10px 0px #6F6F6F40;
+        border-radius: 30px;
+        margin-bottom: 35px;
+        &-text {
+            color: $grey;
+            @include typography(inherit, 13px, 400, 20.6px, left);
+            border: none;
+            outline: none;
+            margin-left: 33px;
+        }
+        
+        &-btn {
+            background-color: $accent;
+            color: $white;
+            @include typography(inherit, 16px, 500, 19.5px, center);
+            @include flex(center, center, _, _, _);
+            height: 45px;
+            width: 190px;
+            border-radius: 0px 30px 30px 0px;
+        }
+    }
+
+    &-info {
+        color: $grey;
+        @include typography(inherit, 13px, 400, 20.6px, center);
+    }
+}
+
+
+
+
+
