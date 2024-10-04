@@ -1,0 +1,58 @@
+.footer {
+    background-color: $darkbg;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    &-container {
+        @include flex(center, _, 40px, _, _);
+        border-bottom: 1px solid $linegrey;
+        padding-bottom: 70px;
+    }
+
+    &-address {
+        &-title {
+            @include typography(inherit, 18px, 600, 21.94px, left);
+            margin-bottom: 35px;
+        }
+
+        &-list {
+            &-item {
+                @include flex(_, center, 15px, _, _);
+                &:not(:first-child) {
+                    margin-top: 30px;
+                }
+            }
+            
+            &-link {
+                color: $grey;
+                @include typography(inherit, 14px, 400, 22.19px, left);
+            }
+        }
+    }
+
+    &-links {
+        &-title {
+            @include typography(inherit, 18px, 600, 21.94px, left);
+            margin-bottom: 35px;
+        }
+
+        &-list {
+            &-item {
+                @include flex(_, center, 15px, _, _);
+                &:not(:first-child) {
+                    margin-top: 30px;
+                }
+            }
+            
+            &-link {
+                color: $grey;
+                @include typography(inherit, 14px, 400, 22.19px, left);
+            }
+        }
+    }
+
+    &-copyright {
+        color: $grey;
+        @include typography(inherit, 13px, 400, 20.6px, center);
+        margin-top: 30px;
+    }
+}
