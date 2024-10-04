@@ -1,0 +1,33 @@
+.projects {
+    background-color: $darkbg;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    &-title {
+        @include typography(inherit, 36px, 700, 52.66px, center);
+        margin-bottom: 28px;
+    }
+    
+    &-subtitle {
+        color: $grey;
+        @include typography(inherit, 16px, 400, 25.36px, center);
+        max-width: 730px;
+        margin: 0 auto;
+        margin-bottom: 92px;
+    }
+    
+    &-list {
+        @include flex(_, _, 30px, _, _);
+    }
+    
+    &-btn {
+        @include flex(center, center, _, _, _);
+        background-color: $accent;
+        color: $white;
+        @include typography(inherit, 16px, 500, 19.5px, center);
+        width: 200px;
+        height: 45px;
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

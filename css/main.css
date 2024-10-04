@@ -383,4 +383,57 @@ img {
   line-height: 25.36px;
   text-align: left;
   margin-bottom: 47px;
+}
+
+.projects {
+  background-color: #F6F6F8;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.projects-title {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52.66px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.projects-subtitle {
+  color: #999999;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.36px;
+  text-align: center;
+  max-width: 730px;
+  margin: 0 auto;
+  margin-bottom: 92px;
+}
+.projects-list {
+  display: flex;
+  justify-content: _;
+  align-items: _;
+  gap: 30px;
+  flex-wrap: _;
+  flex-direction: _;
+}
+.projects-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: _;
+  flex-wrap: _;
+  flex-direction: _;
+  background-color: #4985FF;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
 }/*# sourceMappingURL=main.css.map */
