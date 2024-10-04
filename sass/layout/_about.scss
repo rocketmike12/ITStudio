@@ -1,0 +1,54 @@
+.about {
+    background-color: $darkbg;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    &-wrapper {
+        @include flex(space-between, center, _, _, _);
+        margin-bottom: 90px;
+    }
+
+    &-title {
+        color: $titlegrey;
+        @include typography(inherit, 36px, 700, 52.66px, left);
+        margin-bottom: 60px;
+    }
+
+    &-subtitle {
+        color: $grey;
+        @include typography(inherit, 16px, 400, 25.36px, left);
+        margin-bottom: 42px;
+    }
+
+    &-link {
+        color: $accent;
+        @include typography(inherit, 16px, 500, 19.5px, left);
+    }
+
+    &-text-wrapper {
+        max-width: 489px;
+    }
+
+    &-img {
+        width: 500px;
+        height: 400px;
+    }
+
+    &-list {
+        border-top: 1px solid #E0E0E0;
+        @include flex(space-evenly, _, _, _, _);
+        padding-top: 70px;       
+        &-title {
+            @include typography(inherit, 36px, 400, 52.66px, left);
+        }
+
+        &-text {
+            color: $grey;
+            @include typography(inherit, 16px, 400, 25.36px, left);
+        }
+
+        &-wrapper {
+            @include flex(_, center, 20px, _, _);
+            margin-bottom: 17px;
+        }
+    }
+}
