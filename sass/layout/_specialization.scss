@@ -1,0 +1,42 @@
+.specialization {
+    padding-top: 100px;
+    padding-bottom: 85px;
+    background:  linear-gradient(#504DC2 0px, #5F12D0 490px, $white 490px);
+    &-title-wrapper {
+        @include flex(space-between, center, _, _, _);
+        margin-bottom: 78px;
+    }
+    
+    &-title {
+        color: $white;
+        @include typography(inherit, 36px, 700, 52.66px, left);
+        max-width: 540px;
+    }
+    
+    &-btn {
+        @include flex(center, center, _, _, _);
+        background-color: $accent;
+        color: $white;
+        @include typography(inherit, 16px, 500, 19.5px, center);
+        width: 200px;
+        height: 45px;
+        border-radius: 30px;
+    }
+    
+    &-list {
+        @include flex(space-between, _, _, _, _);
+        padding-bottom: 85px;
+        border-bottom: 1px solid #E0E0E0;
+        &-title {
+            @include typography(inherit, 18px, 600, 21.94px, left);
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        &-text {
+            color: $grey;
+            @include typography(inherit, 16px, 400, 25.36px, left);
+            margin-bottom: 47px;
+        }
+    }
+}
